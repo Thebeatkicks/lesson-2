@@ -12,10 +12,14 @@
 
     4. Print out the new price using console.log(), for example: 'Your new price is: $44.99' */
 
-price = prompt("How much?", "$");
+let input = prompt("How much?", "$");
 
+console.log(input);
 
+let price = parseFloat(input.slice(1))
 
-reducedPrice = price / 0.1;
+console.log(price)5
 
-console.log("Your new price is" + reducedPrice);
+let reducedPrice = price * 0.9;
+
+console.log("Your new price is " + reducedPrice);

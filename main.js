@@ -2,9 +2,9 @@ let input = prompt("How much?", "$");
 
 console.log(input);
 
-let price = parseFloat(input.slice(1))
+let price = parseFloat(input.slice(1));
 
-console.log(price)5
+console.log(price);
 
 let reducedPrice = price * 0.9;
 
